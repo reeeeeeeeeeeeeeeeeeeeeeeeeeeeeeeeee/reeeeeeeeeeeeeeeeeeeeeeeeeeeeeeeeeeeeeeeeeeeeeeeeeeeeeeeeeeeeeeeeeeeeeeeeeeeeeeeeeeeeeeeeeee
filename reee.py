@@ -1,4 +1,3 @@
-import sys
-sys.stdout.write('r')
+print('r')
 while True:
-	sys.stdout.write('e')
+	print('e')
