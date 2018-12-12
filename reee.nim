@@ -1,5 +1,5 @@
 if isMainModule:
-    echo "r"
+    stdout.write "r"
     while true:
-        echo "e"
+        stdout.write "e"
 
