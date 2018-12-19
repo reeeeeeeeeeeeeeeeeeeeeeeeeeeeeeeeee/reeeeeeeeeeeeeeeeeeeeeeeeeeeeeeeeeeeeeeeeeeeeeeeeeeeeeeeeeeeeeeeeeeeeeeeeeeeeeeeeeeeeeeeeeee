@@ -1,0 +1,40 @@
+to reeeeeeeeeeeeeeeee
+  
+  repeat 5 [
+    pendown
+  fd 100
+  rt 90+45
+  fd 50
+  rt 90
+  fd 50
+  lt 90
+  fd 50
+  lt 45
+   repeat 10 [
+    penup
+    fd 50
+    pendown
+    lt 90
+    fd 50
+    rt 90
+    fd 50
+    lt 90
+    penup
+    fd 50
+    pendown
+    lt 90
+    fd 50
+    lt 90
+    fd 100
+    lt 90
+    fd 50
+  ]
+    penup
+    rt 90
+    fd 150
+    lt 180
+ ]
+ 
+end
+clearscreen
+reeeeeeeeeeeeeeeee
