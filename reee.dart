@@ -1,6 +1,8 @@
+import 'dart:io';
+
 void main() {
-  print('r');
+   stdout.write('r');
   while (true) {
-    print('e');
+     stdout.write('e');
   }
 }
