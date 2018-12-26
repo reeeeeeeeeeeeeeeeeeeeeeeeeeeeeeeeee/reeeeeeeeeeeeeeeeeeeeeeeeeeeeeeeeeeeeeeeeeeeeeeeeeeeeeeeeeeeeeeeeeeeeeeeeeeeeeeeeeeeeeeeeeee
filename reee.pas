@@ -6,6 +6,6 @@ begin
         begin
             write('e');
         end;
-    end.
+    end;
 end.
 
