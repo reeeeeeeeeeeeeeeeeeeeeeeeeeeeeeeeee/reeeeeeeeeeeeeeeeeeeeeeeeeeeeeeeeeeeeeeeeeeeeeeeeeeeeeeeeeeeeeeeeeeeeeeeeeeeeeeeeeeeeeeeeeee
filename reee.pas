@@ -1,11 +1,5 @@
 program reee;
-
 begin
     write('r');
-    while true do
-        begin
-            write('e');
-        end;
-    end.
+    while true do write('e');
 end.
-
