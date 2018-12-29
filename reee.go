@@ -5,7 +5,7 @@ import "fmt"
 func main() {
 	fmt.Print("r")
 
-	for true {
+	for {
 		fmt.Print("e")
 	}
 }
