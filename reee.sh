@@ -1,6 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
-# tested with busybox shell and bash
-
-echo -n R
-while true; do echo -n EEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE; done
+echo -n r
+while true; do echo -n e; done
