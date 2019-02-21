@@ -2,25 +2,24 @@
 ;  nasm -f elf reee.asm
 ;  ld -s -o ree ree.o
 
+section .data
+r db 'r'
+e db 'e'
+
 section .text
 global _start
 
-section .data
-msg db  'reee',0xa
-len equ $ - msg
-
-section .text
-;entry point
 _start:
 
 ;write to stdout
-mov edx,len ;msg len
-mov ecx,msg ;msg to write
+mov edx,1   ;msg len
+mov ecx,r   ;letter 'r'
 mov ebx,1   ;file desc
 mov eax,4   ;sys call num
 int 0x80    ;call kernel
 
-;exit with kernel
-mov ebx,0   ;proc exit
-mov eax,1   ;sys call num
-int 0x80    ;call kernel, no return
+mov ecx,e   ;letter 'e'
+eeee:
+mov eax,4
+int 0x80    ;call kernel
+jmp eeee    ;infinite loop!
