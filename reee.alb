@@ -1,9 +1,9 @@
-// reeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee... implementation in ALB 0.0.2
+// reeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee... implementation in ALB 0.0.4
 // Install the interpreter at https://github.com/albertonl/alb
 
 BEGIN
-  out r ;
+  outc 'r' ;
   repeat infinity
-    out e ;
+    outc 'e' ;
   ENDLOOP
 END
