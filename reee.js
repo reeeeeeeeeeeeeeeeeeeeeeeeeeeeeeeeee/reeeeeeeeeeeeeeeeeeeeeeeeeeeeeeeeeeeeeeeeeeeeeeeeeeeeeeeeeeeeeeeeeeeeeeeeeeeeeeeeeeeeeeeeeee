@@ -1,7 +1,7 @@
 'use strict';
 
 function write(char) {
-	if (process) {
+	if (typeof process != "undefined") {
 		process.stdout.write(char)
 	} else {
 		console.log(char)	
