@@ -1,7 +1,15 @@
 'use strict';
 
-console.log('r');
+function write(char) {
+	if (typeof process != "undefined") {
+		process.stdout.write(char)
+	} else {
+		console.log(char)	
+	}
+}
+
+write('r');
 
 while('e') {
-	console.log('e');
+	write('e');
 }
