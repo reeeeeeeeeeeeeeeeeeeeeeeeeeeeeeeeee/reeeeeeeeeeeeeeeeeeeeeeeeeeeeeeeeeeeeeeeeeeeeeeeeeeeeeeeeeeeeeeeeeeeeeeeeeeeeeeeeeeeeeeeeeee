@@ -1,3 +1,3 @@
-print('r', end='')
+print("r", end="")
 while True:
-	print('e', end='')
+    print("e", end="")
