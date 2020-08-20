@@ -1,6 +1,6 @@
 #!/usr/bin/env raku
 
 print "r";
-while True {
+loop {
     print "e";
 }
