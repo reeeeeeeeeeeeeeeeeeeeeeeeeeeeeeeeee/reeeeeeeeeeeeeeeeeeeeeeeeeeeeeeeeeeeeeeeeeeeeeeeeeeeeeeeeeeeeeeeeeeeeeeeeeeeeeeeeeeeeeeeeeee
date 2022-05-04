@@ -1,0 +1,11 @@
+//
+// reeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+// ReCT implementation
+//
+
+package sys;
+
+sys::Write("r");
+while(true){
+  sys::Write("e");
+}
