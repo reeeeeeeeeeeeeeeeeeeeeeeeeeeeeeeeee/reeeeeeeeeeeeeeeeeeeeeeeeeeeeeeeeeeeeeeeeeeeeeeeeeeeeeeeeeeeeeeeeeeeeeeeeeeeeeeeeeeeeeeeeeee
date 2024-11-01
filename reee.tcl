@@ -1,11 +1,11 @@
 proc rEEEE_main {} {
-    puts "r"  ; 
-    flush stdout  ; 
+    puts "r"
+    flush stdout
 
-    while {1} {  ;
-        puts "e"  ; 
-        flush stdout  ; 
-        after 100  ; 
+    while {1} {
+        puts "e"
+        flush stdout
+        after 100
     }
 }
 rEEEE_main
